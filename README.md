@@ -1,6 +1,6 @@
 ## Links to Github & Weights and Biases
-github - https://wandb.ai/showall/nyc_airbnb?workspace=user-showall
-weights and biases - https://github.com/showall/nd0821-c2-build-model-workflow-starter
+- github - https://wandb.ai/showall/nyc_airbnb?workspace=user-showall
+- weights and biases - https://github.com/showall/nd0821-c2-build-model-workflow-starter
 
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
