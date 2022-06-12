@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyterlab=3.0.12
+  - jupyterlab=3.4.3
   - seaborn=0.11.1
   - pandas=1.2.3
   - pip=20.3.3

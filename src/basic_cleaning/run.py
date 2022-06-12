@@ -39,42 +39,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type=str,
-        help="INSERT DESCRIPTION HERE",
+        help="input csv to be cleaned",
         required=True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type=str,
-        help="INSERT DESCRIPTION HERE",
+        help="Cleaned csv",
         required=True
     )
 
     parser.add_argument(
         "--output_type", 
         type=str,
-        help="INSERT DESCRIPTION HERE",
+        help="Artifact type for wandb",
         required=True
     )
 
     parser.add_argument(
         "--output_description", 
         type=str,
-        help="INSERT DESCRIPTION HERE",
+        help="Arfitact description for wandb",
         required=True
     )    
 
     parser.add_argument(
         "--min_price", 
         type=float,
-        help="INSERT DESCRIPTION HERE",
+        help="Lowest price boundary; for outlier removal",
         required=True
     )    
 
     parser.add_argument(
         "--max_price", 
         type=float,
-        help="INSERT DESCRIPTION HERE",
+        help="Highest price boundary; for outlier removal",
         required=True
     )    
 
