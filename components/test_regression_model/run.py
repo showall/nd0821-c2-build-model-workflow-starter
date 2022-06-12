@@ -34,7 +34,7 @@ def go(args):
     y_test = X_test.pop("price")
 
     logger.info("Loading model and performing inference on test set")
-    sk_pipe = mlflow.sklearn.load_model(model_local_path)
+    sk_pipe = mlflow.sklearn.load_model(f'{model_local_path}/random_forest_export')
     y_pred = sk_pipe.predict(X_test)
 
     logger.info("Scoring")
